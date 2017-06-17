@@ -9,6 +9,7 @@
   %body
     =render "layouts/header"
     .container
-      - flash.each do |message_type, message|
-        #flash{:class => "flash-#{message_type}"}= message
-      = yield
+      .col-md-6.col-md-offset-3
+        - flash.each do |message_type, message|
+          #flash{:class => "flash-#{message_type}"}= message
+        = yield
