@@ -12,11 +12,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise-bootstrap-views'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
-  gem 'erb2haml'     
+  gem 'erb2haml'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
