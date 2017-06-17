@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplikacaj do wspierania procesu rekrutacji (zgłoszenie kandydatury na stanowisko, przyjęcie/ odrzucenie aplikacji).
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.3.0
 
-* System dependencies
+* Rails 4.2.0
 
-* Configuration
+* SQLite
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
+* Bootstrap
 Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<tt>rake doc:appgem install bundle
+bundle install
+rake db:create
+rake db:migrate
+rake db:seed
+</tt>.
