@@ -1,8 +1,8 @@
-.container
+%nav.navbar.navbar-small
   %ul.nav.navbar-nav
-    %li= link_to "All Jobs", jobs_path
+    %li= link_to "All Jobs", jobs_path, class: 'navbar-small'
     - Category.all.each do |category|
-      %li= link_to category.name, jobs_path(category: category.name)
+      %li= link_to category.name, jobs_path(category: category.name), class: 'navbar-small'
 #jobs
   - @jobs.each do |job|
     .job

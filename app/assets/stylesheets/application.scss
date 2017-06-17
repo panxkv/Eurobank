@@ -37,14 +37,24 @@ body {
 	padding: 15px 0;
 	border: none;
 }
+.navbar-small {
+	background-color : transparent;
+	color: white;
+	border-radius: 0;
+	height: 50px;
+	padding: 15px 0;
+	border: none;
+}
+
 
 .navbar-brand {
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	font-size: 2em;
 	font-weight: 300;
-	color: #1D976C !important;
+	color: #D4434A !important;
 }
+
 
 #jobs {
 	.job {
