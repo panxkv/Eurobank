@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   end
   resources :jobs, only: [:index, :show]
   resources :jobs do
-    resources :applications, only: [:index, :show]
+    resources :applications
   end
   root 'dashboard#index'
 

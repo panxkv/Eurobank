@@ -1,14 +1,16 @@
 -if @job.applications.any?
   %h1 Applications
   .row
+    .col-md-2
+      %b Name
+    .col-md-2
+      %b Surname
     .col-md-3
-      Name
+      %b Email
     .col-md-3
-      Surname
-    .col-md-3
-      Email
-    .col-md-3
-      Phone
-  = render @job.applications
+      %b Phone
+    .col-md-2
+      %b Status
+    = render @job.applications
 - else
   %h2 No application yet
