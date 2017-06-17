@@ -1,8 +1,9 @@
 == README
+https://eurobank.herokuapp.com/
 
 Aplikacaj do wspierania procesu rekrutacji (zgłoszenie kandydatury na stanowisko, przyjęcie/ odrzucenie aplikacji).
 
-Things you may want to cover:
+Specyfikacja:
 
 * Ruby 2.3.0
 
@@ -11,7 +12,9 @@ Things you may want to cover:
 * SQLite
 
 * Bootstrap
-How run
+
+Uruchom:
+
 <tt>gem install bundle</tt>
 <tt>bundle install</tt>
 <tt>rake db:create</tt>
