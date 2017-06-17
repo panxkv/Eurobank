@@ -5,7 +5,8 @@
   - if user_signed_in?
     =link_to 'Edit', edit_job_path(@job), class: 'btn btn-default'
     =link_to "Delete", job_path(@job), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-default"
-
+    =link_to 'Back', jobs_path, class: 'btn btn-default'
+    =link_to 'Applications', root_path, class: "btn btn-default"
   - else
     =link_to 'Back', jobs_path, class: 'btn btn-default'
     =link_to 'Apply', root_path, class: 'btn btn-default'

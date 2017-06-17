@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   end
   resources :jobs, only: [:index, :show]
   root 'dashboard#index'
+
 end
