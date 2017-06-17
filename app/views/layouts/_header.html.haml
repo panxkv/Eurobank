@@ -1,13 +1,13 @@
 %nav.navbar.navbar-default
   .container
     - if user_signed_in?
-      = link_to "Jobs for Eurobank", jobs_path, class: "navbar-brand"
+      = link_to "Jobs in Eurobank", jobs_path, class: "navbar-brand"
       %ul.nav.navbar-nav.navbar-right
         %li= link_to "Jobs", jobs_path
         %li= link_to "Account", edit_user_registration_path
         %li= link_to "Sign Out", destroy_user_session_path, method: :delete
     - else
-      = link_to "Jobs for Eurobank", root_path, class: "navbar-brand"
+      = link_to "Jobs in Eurobank", root_path, class: "navbar-brand"
       %ul.nav.navbar-nav.navbar-right
         %li= link_to "Jobs", jobs_path
         %li= link_to "Recruter", new_user_session_path

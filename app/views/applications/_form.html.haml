@@ -1,0 +1,7 @@
+= simple_form_for([@job, @job.applications.build]) do |f|
+  = f.input :name, label: "name"
+  = f.input :surname, label: "Surname"
+  = f.input :email, label: "Email"
+  = f.input :phone, label: "Phone"
+
+  = f.submit
